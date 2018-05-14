@@ -5,9 +5,9 @@
 
 ### **独立的 BIMserver**
 
-1. 阅读wiki页面以获取[Requirements Version]文档的相关版本, 例如: (https://github.com/opensourceBIM/BIMserver/wiki/Requirements-1.4)
+1. 阅读wiki页面以获取[Requirements Version]文档的相关版本, 例如:(https://github.com/opensourceBIM/BIMserver/wiki/Requirements-1.4)
 
-2. 确保可以通过双击JAR文件来执行JAR文件。如果没有, 请检查是否正确安装了[Java]（http://www.java.com），并且JAVA环境变量安装正确。在你的mac上，Oracle建议安装JDK（而不是JRE）。确保你已经安装了64位的Java.
+2. 确保可以通过双击JAR文件来执行JAR文件。如果没有, 请检查是否正确安装了[Java](http://www.java.com)，并且JAVA环境变量安装正确。在你的mac上，Oracle建议安装JDK（而不是JRE）。确保你已经安装了64位的Java.
 
 3. 下载最新的[file(s)](https://github.com/opensourceBIM/BIMserver/releases)。如果需要，请阅读[which type of files to download](https://github.com/opensourceBIM/BIMserver/wiki/Download)。
 
