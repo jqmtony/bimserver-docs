@@ -84,12 +84,7 @@ BIMserver
   * [Reusable(未翻译)](./Reusable-query-blocks.md)
 * [Reorganizing BIMserver JavaScript API(未翻译)](./Reorganizing-bimserverapi.js.md)
 
-**General**
-* [FAQ(未翻译)](./FAQ.md)
-* [Known Issues(未翻译)](./Known-Issues.md)
-  * [Problems querying IFC(未翻译)](./Problems-with-querying-IFC.md)
-  * [Web Sockets(未翻译)](./Web-socket-error.md)
-* [License(未翻译)](./License.md)
-* [Feature statusses(未翻译)](./Feature-statusses.md)
-* [Roadmap(未翻译)](./Roadmap.md)
 
+声明
+====
+本项目中的所有文件均来自[https://github.com/opensourceBIM/BIMserver/wiki](https://github.com/opensourceBIM/BIMserver/wiki),本项目中翻译只作参考.谢谢!!
