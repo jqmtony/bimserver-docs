@@ -1,0 +1,1 @@
+Content has been improved and moved to: https://github.com/opensourceBIM/BIM-Bot-services/wiki
