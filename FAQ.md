@@ -1,0 +1,1 @@
+Find the [FAQ section on our issue page](https://github.com/opensourceBIM/BIMserver/issues?q=label%3AFAQ+is%3Aclosed).

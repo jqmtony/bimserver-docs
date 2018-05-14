@@ -1,0 +1,1 @@
+![Communication](https://github.com/opensourceBIM/BIMserver/raw/master/Documentation/img/communication.png)
