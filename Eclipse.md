@@ -12,19 +12,19 @@ All BIMserver project are on GitHub. Eclipse should have a Git client already.
 * Open the GIT [perspective](http://stackoverflow.com/questions/6650353/just-what-is-an-eclipse-perspective-and-how-would-i-go-about-making-one) in Eclipse
 * Right click in the "Git Repositories" view and select "Paste Repository Path or URI", or just press ctrl-v
 
-![Add Repository](https://github.com/opensourceBIM/BIMserver/raw/master/Documentation/img/git1.png)
+![Add Repository](./img/git1.png)
 
 * Fill in your GitHub credentials if you have them (only required if you are planning to, and have the rights to commit).
 
-![Credentials](https://github.com/opensourceBIM/BIMserver/raw/master/Documentation/img/git2.png)
+![Credentials](./img/git2.png)
 
 * Next
 
-![Credentials](https://github.com/opensourceBIM/BIMserver/raw/master/Documentation/img/git3.png)
+![Credentials](./img/git3.png)
 
 * Finish (Select the "Import all existing projects after clone finishes" checkbox)
 
-![Credentials](https://github.com/opensourceBIM/BIMserver/raw/master/Documentation/img/git4.png)
+![Credentials](./img/git4.png)
 
 * Switch back to the Java perspective
 
@@ -36,8 +36,8 @@ To run the BIMserver from eclipse, right click the BimServer**Jar** project, sel
 
 When Java complains there is not enough memory, you can increase the amount of heap memory the BIMserver can use in the "Run configuration". Please read these [notes](https://github.com/opensourceBIM/BIMserver/wiki/Memory-and-Java) on memory in general. Go to the tab "Arguments" and add the following to the "VM arguments": "-Xmx4g" (this is for 4GB of heap).
 
-![Credentials](https://github.com/opensourceBIM/BIMserver/raw/master/Documentation/img/runconfigs.png)
-![Credentials](https://github.com/opensourceBIM/BIMserver/raw/master/Documentation/img/runconfig.png)
+![Credentials](./img/runconfigs.png)
+![Credentials](./img/runconfig.png)
 
 > Make sure you are running a 64bit JVM when assigning more than 1300MB of heap!
 
@@ -63,7 +63,7 @@ For every project, you have to clone the git repository and import the projects.
 
 If you are not planning to change any of these projects, you can of course also just install plugins the regular way.
 
-![Credentials](https://github.com/opensourceBIM/BIMserver/raw/master/Documentation/img/plugins.png)
+![Credentials](./img/plugins.png)
 
 # Setup
 

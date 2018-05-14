@@ -7,4 +7,4 @@ The Building Information Model Server (简称: BIMserver) 使您能够存储和�
 
 BIMserver 可让开发人员自由构建. 我们可以在 https://github.com/opensourceBIM/BIMserver/wiki 中找到很好的百科全书和在https://github.com/opensourceBIM/BIMserver/issues 中得到开发人员的支持.
 
-查看http://www.bimserver.org/上的完整功能列表.
+查看[http://www.bimserver.org/](http://www.bimserver.org/)上的完整功能列表.

@@ -10,7 +10,7 @@ To make it easier to evaluate BIMserver, a cross platform executable build is cr
 
 > (OSX) You can change the default JVM under Applications | Utilities | Java Preferences, on some OSX installations this somehow defaults to an older version of Java where the BIMserver needs version 8._
 
-![JAR Runner](https://github.com/opensourceBIM/BIMserver/raw/master/Documentation/img/jar.png)
+![JAR Runner](./img/jar.png)
 
 | Settings | Meaning |
 | ---------------------------- |-------------|
