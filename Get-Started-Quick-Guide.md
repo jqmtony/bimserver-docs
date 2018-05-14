@@ -1,54 +1,57 @@
-**Note:** BIMserver is a platform for others to build applications on. We provide a stable and flexible platform to create online (open)BIM tools.
+快速入门指南
+============
 
-### **Stand-alone BIMserver**
+**注意：** BIMserver是其他人在其上构建应用程序的平台。 我们提供了一个稳定而灵活的平台来创建在线（开放式）BIM工具。
 
-1. Read the wiki page for the relevant version of [Requirements Version] document, e.g. (https://github.com/opensourceBIM/BIMserver/wiki/Requirements-1.4)
+### **独立的 BIMserver**
 
-2. Make sure you can execute a JAR file by double-clicking a JAR file. If not, check that [Java](http://www.java.com) is installed properly and the JAVA environment variables are setup correctly. On you mac Oracle advises to install the JDK (instead of the JRE). Make sure you have 64bit java installed.
+1. 阅读wiki页面以获取[Requirements Version]文档的相关版本, 例如: (https://github.com/opensourceBIM/BIMserver/wiki/Requirements-1.4)
 
-3. Download the latest [file(s)](https://github.com/opensourceBIM/BIMserver/releases). If needed, read about [which type of files to download](https://github.com/opensourceBIM/BIMserver/wiki/Download).
+2. 确保可以通过双击JAR文件来执行JAR文件。如果没有, 请检查是否正确安装了[Java]（http://www.java.com），并且JAVA环境变量安装正确。在你的mac上，Oracle建议安装JDK（而不是JRE）。确保你已经安装了64位的Java.
 
-4. Assuming this is your first installation, create a new folder in your system, e.g. C:\BIMserver
-**Note**: avoid creating BIMserver subfolder with spaces like C:\Program Files or C:\Program Files (x86)
+3. 下载最新的[file(s)](https://github.com/opensourceBIM/BIMserver/releases)。如果需要，请阅读[which type of files to download](https://github.com/opensourceBIM/BIMserver/wiki/Download)。
 
-5. Copy the downloaded bimserver-[version].jar into the above folder, e.g. C:\BIMserver
+4. .假设这是您的第一次安装，请在您的系统中创建一个新文件夹，例如C:\BIMserver
+**注意**: 避免使用C：\ Program Files或C：\ Program Files（x86）等空格创建BIMserver子文件夹。
 
-6. Double-click on the bimserver-[version].jar file to execute it. This will extract the content of the jar file and create two subfolders, i.e. home and bimserver-[version].
+5. 将下载的bimserver-[version].jar复制到上述文件夹中，例如C:\BIMserver
 
-7. Wait for BIMserver to expand all the files and configure itself and until the phrase "Server started successfully" appears.
+6. 双击bimserver-[version].jar文件执行它.这将提取jar文件的内容并创建两个子文件夹，即home和bimserver-[version]。
 
-8. Click the Stop button to stop the BIMserver.
+7. 等待BIMserver展开所有文件并进行自我配置，直到出现“Server started successfully”。
 
-9. For BIMserver before 1.5: 
-- Download the latest open source BIMserver client, i.e. bimvie-[version].jar from [here](https://github.com/opensourceBIM/bimvie.ws/releases).
+8. 单击停止按钮停止BIMserver.
+
+9. 对于1.5之前的BIMserver: 
+- 从[here](https://github.com/opensourceBIM/bimvie.ws/releases)下载最新的开源BIMserver客户端，即bimvie-[version] .jar
 - Copy the bimvie-[version].jar file into the plugins subfolder under the bimserver-[version] folder
 - Click the Start button to restart BIMserver. Once the BIMserver has restarted, click Launch Browser
 (in BIMserver 1.5 you are given the option to download bimvie.ws and ifcopenshell plugins during setup / step 10)
 
-**If the above steps are followed correctly, you should have BIMserver launched successfully on a browser.** If failed, restart BIMserver with another port number, e.g. http://localhost:8082
+**如果上述步骤正确执行，则应在浏览器上成功启动BIMserver.** 如果失败，请使用另一个端口号重新启动BIMserver, 例如 http://localhost:8082
 
-10. The first time BIMserver is launched, you will need to set up the administration login.
+10. 首次启动BIMserver时，您需要设置管理登录。
 
 
-**Third party GUI:**
+**第三方(Third party)GUI:**
 
 There are a few third party GUI available. Some are commercial products that you have to purchase a licence for, but there are a few that are free to try or shared freely by others, such as the open source bimvie.ws
 
-**Checkin an IFC model**
+**签入IFC模型**
 
 1. Use http://localhost:[port]/admin/console.html or http://localhost:[port]/apps/console (depending on your version of BIMserver) and run the Checkin API to checkin a model, or
 2. Use a GUI such as the bimvie.ws to checkin a model either into an existing project.
 
-**View the model**
+**查看模型**
 
-bimvie.ws allows viewing of the model. Alternatively, one can use bimsurfer.org
+bimvie.ws允许查看模型。或者，可以使用bimsurfer.org
 
-**Additional Info**
+**附加信息**
 
-1. Read [Setup Guide](https://github.com/opensourceBIM/BIMserver/wiki/Setup)
-2. Watch this [Open Source BIMserver](http://www.youtube.com/watch?v=greB5jHi6JQ) video.
-3. As a rule of thumb, set the heap size according to: 15MB per 1MB of IFC file, e.g. for 30MB of IFC file, the heap size should be at least 4Gb for normal use with plugins.
+1. 请阅读 [安装指南](https://github.com/opensourceBIM/BIMserver/wiki/Setup)
+2. 观看此视频 [Open Source BIMserver](http://www.youtube.com/watch?v=greB5jHi6JQ) video.
+3. 根据经验法则，根据以下公式设置堆大小：每1MB的IFC文件，例如15MB。对于30MB的IFC文件，堆大小应至少为4Gb，以便正常使用插件。
 
-### **Use BIMserver in your application**
+### **在应用程序中使用BIMserver**
 
-See Developers' Guide.
+请参阅开发人员指南.
