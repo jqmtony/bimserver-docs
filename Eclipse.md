@@ -2,6 +2,8 @@
 
 We use Eclipse to develop BIMserver. Other IDE's should work as well, but this page describes how to get started with Eclipse.
 
+我们使用Eclipse开发BIMserver.或许有更好的IDE发开工具，但在这篇文章里主要介绍的是Eclipse.
+
 It's best to download the "Eclipse Modeling Tools" package, but if you are not going to change the EMF model, you can also just download the "Standard" package, or use your own existing installation.
 
 # GitHub
