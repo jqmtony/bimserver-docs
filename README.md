@@ -3,7 +3,7 @@ BIMserver
 
 **Get Started**
 * [BIMserver简介(已翻译)](./BIMserver-Introduction.md)
-* [Quick Guide(未翻译)](./Get-Started-Quick-Guide.md)
+* [Quick Guide(已翻译)](./Get-Started-Quick-Guide.md)
 * [Requirements Version 1.2(未翻译)](./Requirements-1.2.md)
 * [Requirements Version 1.3(未翻译)](./Requirements-1.3.md)
 * [Requirements Version 1.4(未翻译)](./Requirements-1.4.md)
