@@ -1,8 +1,10 @@
 To connect to a BIMserver you can use one of the 3 protocols: [SOAP](SOAP), [JSON](JSON API) or [Protocol Buffers](Protocol Buffers). To make connecting to a BIMserver even easier, there also is a Java library you can use.
 
-# Get the client library
+# Get the client library (获取客户端库文件)
 
 From version 1.5 on we are using Maven for all dependency management. We suggest you do too when using the BIMserver Client library as it makes installing all the required dependencies a lot easier.
+
+
 
 You can find the Maven XML snippet in the latest release notes (for example https://github.com/opensourceBIM/BIMserver/releases/tag/parent-1.5.51). Make sure you match the version of the client with the version of your BIMserver. It  looks something like this:
 ```xml
